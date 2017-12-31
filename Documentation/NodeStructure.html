@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>OpenUIX Data Node</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="OpenUIX Data Node">
+	<meta name="author" content="Mikel Salazar">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<h1>Data Node</h1>
+
+		To facilitate serialization and navigation across the data model, a hierarchical structure is employed. Each element of this structure is a called a Node (not to be confused with Node.js) and every other element derives from it.
+
+		id: Identifies the 
+
+		name:
+
+		class:
+
+		include: Allows the inclusion of OpenUIX documents (or folders of documents i
+
+		<h2>Node Class</h2>
+		Initially, to sustain the node structure the base Node class must contain the following public members:
+		
+		Name: A basic character string that unequivocally identifies the node among its peers. It must follow common naming rules: it should be an alphanumeric value (including uppercase and lowercase letters, numbers and hyphenation symbols) up to 256 characters, it must start with a letter and it must not be null. </li>
+
+		Type: Contains the metadata related to the node type, including its name, aliases, class constructor and extension properties (indicating if it an abstract class, the base class, etc.).</li>
+
+		<h2>Node Hierarchy</h2>
+
+		Parent: A reference to the parent node instance. Necessary to navigate across the node hierarchy.</li>
+		Children: A collection of node instances
+		
+		Storing all child nodes into a single structure is useful for serialization (since it maintains the original order) but it poses other problems. If the UI designer wants to create nodes with the same name but of different type, you have to create
+
+		Public functions: 
+		Add (node, position = 0)
+		Get(position):
+		Move (name/position/na):
+		Remove (name):
+
+		<h2>>Node Data</h2>
+		Optionally, a node can also contain data; either a simple basic value (boolean values, integer numbers, real numbers or character strings) or a complex data structure that matches the actual nada structure of the node.
+
+		<h2>>Node Context</h2>
+
+		<h2>Node </h2>
+
+		Node Extension
+
+		Node Document
+		</article>
+	</body>
+</html> 

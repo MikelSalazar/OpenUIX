@@ -1,0 +1,16 @@
+[submodule "Implementation/Platforms/Unity"]
+	path = Implementation/Platforms/Unity
+	url = https://github.com/MikelSalazar/OpenUIX_Unity.git
+	branch = development
+[submodule "Implementation/Languages/CSharp"]
+	path = Implementation/Languages/CSharp
+	url = https://github.com/MikelSalazar/OpenUIX_CSharp.git
+	branch = development
+[submodule "Implementation/Languages/JavaScript"]
+	path = Implementation/Languages/JavaScript
+	url = https://github.com/MikelSalazar/OpenUIX_JavaScript.git
+	branch = development
+[submodule "Implementation/Platforms/Threejs"]
+	path = Implementation/Platforms/Threejs
+	url = https://github.com/MikelSalazar/OpenUIX_Threejs.git
+	branch = development
