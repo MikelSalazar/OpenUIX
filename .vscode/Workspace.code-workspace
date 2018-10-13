@@ -2,9 +2,13 @@
 	"folders": [
 		{
 			"path": "../"
+		},
+		{
+			"path": "C:/Users/MikelSalazar/Projects/OpenUIX/node_modules/@types"
 		}
 	],
 	"settings": {
 		"editor.rulers": [80],
-	}
+		"git.autofetch": false
+	},
 }
