@@ -1,0 +1,3 @@
+[submodule "implementation/engine/typescript"]
+	path = implementation/engine/typescript
+	url = https://github.com/MikelSalazar/OpenUIX_TypeScript.git
